@@ -1,3 +1,5 @@
+#This code combines hand gesture recognition and color detection to create an interactive system that controls external devices (LEDs and buzzer in my case but you can customize based on your need) based on visual input.
+#Author:Amir Philip Adam
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 from cvzone.SerialModule import SerialObject
